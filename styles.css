@@ -1,3 +1,55 @@
 .avatar {
-    width: 200px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+body {
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(100, 100, 100, 0.4);
+}
+.modal {
+    width: 375px;
+    margin: 15% auto auto;
+    position: relative;
+    text-align: center;
+    background: #fff;
+    border: 1px solid #778;
+    border-radius: 5px;
+    padding: 30px 20px;
+}
+.modal-close {
+    position: absolute;
+    right: 15px;
+    top: 5px;
+    cursor: pointer;
+}
+.hidden {
+    display: none;
+}
+
+.grid-container {
+   display: grid;
+   grid-template-columns: auto auto auto;
+   margin: 0 auto;
+}
+.h1 {
+    opacity: 0.6;
+    padding-bottom: 20px;
+    margin-left: 20px;
+}
+.card {
+    display: flex;
+    margin: 20px;
+    border: 1px solid rgb(195, 195, 205);
+    border-radius: 7px;
+    text-align: center;
+    background-color: rgb(161, 173, 173);
 }
